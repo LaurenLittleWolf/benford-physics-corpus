@@ -1,5 +1,5 @@
 
-# benford-physics-corpus
+# benford-physics
 
 Python pipeline for testing Benford’s Law in physics papers using numerical extraction, first-digit analysis, and statistical comparison.
 
