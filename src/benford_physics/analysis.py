@@ -15,6 +15,57 @@ from dataclasses import dataclass
 
 NUMBER_PATTERN = re.compile(r"[-+]?\d*\.?\d+(?:[eE][-+]?\d+)?")
 
+PIPELINE_ROADMAP = [
+    {
+        "step": 1,
+        "component": "pdf_text_extraction",
+        "status": "planned",
+        "priority": 1,
+    },
+    {
+        "step": 2,
+        "component": "numeric_token_classification",
+        "status": "planned",
+        "priority": 1,
+    },
+    {
+        "step": 3,
+        "component": "unit_and_scale_normalization",
+        "status": "planned",
+        "priority": 1,
+    },
+    {
+        "step": 4,
+        "component": "benford_eligibility_diagnostics",
+        "status": "planned",
+        "priority": 1,
+    },
+    {
+        "step": 5,
+        "component": "token_exclusion_audit_trail",
+        "status": "planned",
+        "priority": 2,
+    },
+    {
+        "step": 6,
+        "component": "bootstrap_confidence_intervals",
+        "status": "planned",
+        "priority": 2,
+    },
+    {
+        "step": 7,
+        "component": "corpus_comparison_dashboard",
+        "status": "planned",
+        "priority": 3,
+    },
+    {
+        "step": 8,
+        "component": "validated_physics_corpus",
+        "status": "planned",
+        "priority": 3,
+    },
+]
+
 
 @dataclass(frozen=True)
 class BenfordResult:
