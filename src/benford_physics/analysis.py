@@ -1,5 +1,5 @@
 """
-Benford analysis utilities for physics-paper corpora.
+Benford analysis utilities for physics-paper collections.
 
 This module extracts numerical values from scientific text, identifies first
 significant digits, and compares the observed distribution against Benford's Law.
@@ -54,13 +54,13 @@ PIPELINE_ROADMAP = [
     },
     {
         "step": 7,
-        "component": "corpus_comparison_dashboard",
+        "component": "dataset_comparison_dashboard",
         "status": "planned",
         "priority": 3,
     },
     {
         "step": 8,
-        "component": "validated_physics_corpus",
+        "component": "validated_physics_dataset",
         "status": "planned",
         "priority": 3,
     },
